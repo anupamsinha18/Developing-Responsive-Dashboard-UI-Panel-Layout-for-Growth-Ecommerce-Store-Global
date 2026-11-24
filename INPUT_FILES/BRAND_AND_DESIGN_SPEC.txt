@@ -1,0 +1,12 @@
+GROWTH WELLNESS STORE — INTERNAL DASHBOARD DESIGN SPEC
+Brand type: Organic wellness ecommerce. Brand asset naming: growth_logo.*
+Palette: Forest #173F35; Leaf #4D8A64; Sage #6A9A7B; Canvas #F4F7F2; White #FFFFFF; Divider #DFE8DF; Highlight #D7AE62.
+Typography: system UI / Inter fallback. Heading 28-32px desktop; body 14-16px; labels at least 12px. Accessible contrast required.
+Reference source: design_references/desktop_1440.png (desktop), tablet_768.png (tablet). Brand logo: brand_assets/growth_logo.svg.
+Page structure: left sidebar, top page header, four KPI cards, revenue trend illustration and channel breakdown, recent transactions table. For a focused one-day assignment prioritize the required sidebar, header, four stat cards and data table; charts shown in the reference may be reproduced as compact CSS/SVG enhancements if time permits.
+KPI labels: Gross revenue, Completed orders, Units sold, Pending orders. Calculate dynamically from transactions.json; reference values correspond to the supplied synthetic source records and should never be presented as live company performance.
+Revenue is sum amountINR for Completed only. Completed orders count Completed only. Units sold sum quantity for Completed only. Pending orders count Pending only.
+Transaction columns: Transaction ID, Date, Product, Amount (INR), Channel, Status. Sort newest first. Include Status and Channel filters; 10 rows per page if pagination is added. Loading from imported local JSON is adequate. Provide a clearly resettable All filter.
+Responsive: desktop >= 1100px: sidebar fixed width, four KPI cards across; tablet 768-1099px: compact header and two KPI columns, table scroll container; below 768px: single column cards, collapsible or stacked navigation, accessible horizontally scrollable table. No page-wide horizontal overflow.
+Icons: create simple CSS/SVG icons; do not introduce unlicensed icon packs. Brand artwork is original. No external logos or private endpoints required.
+Acceptance notes: PascalCase React components, clean props interface, CSS files rather than inline styles, no hardcoded individual transaction rows, accurate status filters and derived KPI values.

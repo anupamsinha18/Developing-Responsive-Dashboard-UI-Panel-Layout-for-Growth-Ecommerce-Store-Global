@@ -1,0 +1,25 @@
+GROWTH WELLNESS STORE — RESPONSIVE ECOMMERCE DASHBOARD
+Job ID: 1S8e1o2e284Ah70FxeUY
+Confirmed compensation: INR 779 | Deadline: 25 November 2026 | Estimated duration: 1 business day
+
+OBJECTIVE
+Build a responsive React/Vite operations dashboard for Growth Wellness Store using the supplied design references and transaction dataset. Focus on the frontend only: reusable components, clear sales KPIs, and a JSON-powered transaction table. The finished dashboard is your deliverable.
+
+PROVIDED INPUTS
+- INPUT_FILES/design_references/desktop_1440.png and tablet_768.png
+- INPUT_FILES/brand_assets/growth_logo.svg and growth_logo.png
+- INPUT_FILES/source_data/transactions.json (96 records), transactions.csv, product_catalog.csv and data_contract.json
+- INPUT_FILES/react_starter/ (React/Vite project with component scaffolds and shared data)
+- INPUT_FILES/BRAND_AND_DESIGN_SPEC.txt and COMPONENT_AND_TEST_SPEC.txt
+
+WORK STEPS
+1. Review the design references, brand guidelines, data schema and the supplied React starter.
+2. Run npm install then npm run dev inside INPUT_FILES/react_starter; create a working Git feature branch.
+3. Build Sidebar, Header, reusable StatCard and TransactionTable components in separate files; keep transaction content data-driven.
+4. Apply organized CSS without inline styles. Match the supplied visual identity and make the layout responsive on desktop and tablet, with usable small-screen behavior.
+5. Implement accurate KPI calculations and client-side Status/Channel table filtering; ensure table rows map to JSON records rather than hardcoded values.
+6. Run the production build; test resizing and key functionality in available browsers; document actual results and fix issues.
+7. Submit GitHub repository URL, live HTTPS deployment URL and a concise README using the submission checklist.
+
+ACCEPTANCE
+PascalCase React components; modular layout; CSS outside JSX; coherent forest/sage color palette; no browser-wide horizontal overflow; accurate data display; working client-side filters. Source code must be installable and deployable. Do not claim browser tests that were not run.

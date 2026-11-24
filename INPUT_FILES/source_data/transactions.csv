@@ -1,0 +1,97 @@
+transactionId,date,customerId,productId,productName,category,quantity,unitPriceINR,amountINR,status,channel,region
+TXN-0001,2026-08-30,CUST-018,PR-106,Ginger Turmeric Tea,Tea & Infusions,1,549,549,Pending,Mobile App,East
+TXN-0002,2026-08-03,CUST-035,PR-103,Botanical Face Oil,Skincare,3,899,2697,Completed,Website,North
+TXN-0003,2026-11-05,CUST-052,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Mobile App,East
+TXN-0004,2026-09-20,CUST-010,PR-105,Lavender Sleep Mist,Aromatherapy,1,749,749,Completed,Mobile App,South
+TXN-0005,2026-09-27,CUST-027,PR-106,Ginger Turmeric Tea,Tea & Infusions,2,549,1098,Completed,Marketplace,South
+TXN-0006,2026-08-06,CUST-044,PR-103,Botanical Face Oil,Skincare,1,899,899,Refunded,Website,North
+TXN-0007,2026-09-23,CUST-002,PR-105,Lavender Sleep Mist,Aromatherapy,1,749,749,Completed,Mobile App,North
+TXN-0008,2026-08-26,CUST-019,PR-106,Ginger Turmeric Tea,Tea & Infusions,2,549,1098,Cancelled,Website,North
+TXN-0009,2026-08-17,CUST-036,PR-105,Lavender Sleep Mist,Aromatherapy,2,749,1498,Completed,Website,South
+TXN-0010,2026-10-08,CUST-053,PR-105,Lavender Sleep Mist,Aromatherapy,2,749,1498,Completed,Mobile App,North
+TXN-0011,2026-10-19,CUST-011,PR-102,Calm Chamomile Tea,Tea & Infusions,2,499,998,Completed,Mobile App,North
+TXN-0012,2026-08-17,CUST-028,PR-105,Lavender Sleep Mist,Aromatherapy,1,749,749,Completed,Marketplace,South
+TXN-0013,2026-10-11,CUST-045,PR-103,Botanical Face Oil,Skincare,1,899,899,Completed,Marketplace,West
+TXN-0014,2026-09-25,CUST-003,PR-106,Ginger Turmeric Tea,Tea & Infusions,2,549,1098,Completed,Mobile App,North
+TXN-0015,2026-10-06,CUST-020,PR-104,Plant Protein Cocoa,Supplements,3,1699,5097,Refunded,Marketplace,North
+TXN-0016,2026-08-26,CUST-037,PR-101,Daily Greens Blend,Supplements,1,1299,1299,Refunded,Mobile App,West
+TXN-0017,2026-09-01,CUST-054,PR-107,Clay Cleanser,Skincare,1,699,699,Completed,Marketplace,North
+TXN-0018,2026-08-22,CUST-012,PR-107,Clay Cleanser,Skincare,1,699,699,Completed,Marketplace,North
+TXN-0019,2026-08-28,CUST-029,PR-108,Cedarwood Diffuser Oil,Aromatherapy,2,599,1198,Pending,Website,West
+TXN-0020,2026-08-11,CUST-046,PR-102,Calm Chamomile Tea,Tea & Infusions,2,499,998,Completed,Website,South
+TXN-0021,2026-10-28,CUST-004,PR-105,Lavender Sleep Mist,Aromatherapy,1,749,749,Completed,Website,South
+TXN-0022,2026-08-30,CUST-021,PR-107,Clay Cleanser,Skincare,2,699,1398,Completed,Marketplace,South
+TXN-0023,2026-08-02,CUST-038,PR-103,Botanical Face Oil,Skincare,1,899,899,Pending,Website,East
+TXN-0024,2026-08-10,CUST-055,PR-102,Calm Chamomile Tea,Tea & Infusions,2,499,998,Completed,Website,West
+TXN-0025,2026-09-18,CUST-013,PR-106,Ginger Turmeric Tea,Tea & Infusions,2,549,1098,Pending,Marketplace,West
+TXN-0026,2026-08-18,CUST-030,PR-107,Clay Cleanser,Skincare,1,699,699,Refunded,Marketplace,East
+TXN-0027,2026-09-28,CUST-047,PR-108,Cedarwood Diffuser Oil,Aromatherapy,2,599,1198,Refunded,Website,South
+TXN-0028,2026-09-03,CUST-005,PR-101,Daily Greens Blend,Supplements,2,1299,2598,Refunded,Mobile App,West
+TXN-0029,2026-08-22,CUST-022,PR-102,Calm Chamomile Tea,Tea & Infusions,3,499,1497,Completed,Mobile App,North
+TXN-0030,2026-10-26,CUST-039,PR-103,Botanical Face Oil,Skincare,3,899,2697,Pending,Mobile App,North
+TXN-0031,2026-09-01,CUST-056,PR-105,Lavender Sleep Mist,Aromatherapy,2,749,1498,Completed,Marketplace,West
+TXN-0032,2026-10-28,CUST-014,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Website,East
+TXN-0033,2026-09-30,CUST-031,PR-107,Clay Cleanser,Skincare,1,699,699,Pending,Mobile App,West
+TXN-0034,2026-08-20,CUST-048,PR-106,Ginger Turmeric Tea,Tea & Infusions,2,549,1098,Pending,Marketplace,East
+TXN-0035,2026-08-19,CUST-006,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Marketplace,West
+TXN-0036,2026-08-29,CUST-023,PR-101,Daily Greens Blend,Supplements,2,1299,2598,Refunded,Website,South
+TXN-0037,2026-10-13,CUST-040,PR-103,Botanical Face Oil,Skincare,2,899,1798,Pending,Website,South
+TXN-0038,2026-09-12,CUST-057,PR-102,Calm Chamomile Tea,Tea & Infusions,3,499,1497,Completed,Website,South
+TXN-0039,2026-09-29,CUST-015,PR-104,Plant Protein Cocoa,Supplements,1,1699,1699,Pending,Website,South
+TXN-0040,2026-09-06,CUST-032,PR-102,Calm Chamomile Tea,Tea & Infusions,2,499,998,Refunded,Website,North
+TXN-0041,2026-08-19,CUST-049,PR-102,Calm Chamomile Tea,Tea & Infusions,2,499,998,Completed,Mobile App,North
+TXN-0042,2026-11-03,CUST-007,PR-106,Ginger Turmeric Tea,Tea & Infusions,1,549,549,Completed,Website,South
+TXN-0043,2026-10-26,CUST-024,PR-103,Botanical Face Oil,Skincare,1,899,899,Cancelled,Mobile App,West
+TXN-0044,2026-09-11,CUST-041,PR-101,Daily Greens Blend,Supplements,2,1299,2598,Pending,Mobile App,North
+TXN-0045,2026-10-15,CUST-058,PR-101,Daily Greens Blend,Supplements,1,1299,1299,Completed,Website,West
+TXN-0046,2026-11-12,CUST-016,PR-104,Plant Protein Cocoa,Supplements,3,1699,5097,Refunded,Marketplace,South
+TXN-0047,2026-09-02,CUST-033,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Cancelled,Marketplace,South
+TXN-0048,2026-08-07,CUST-050,PR-101,Daily Greens Blend,Supplements,1,1299,1299,Completed,Marketplace,South
+TXN-0049,2026-11-05,CUST-008,PR-102,Calm Chamomile Tea,Tea & Infusions,2,499,998,Completed,Website,East
+TXN-0050,2026-08-11,CUST-025,PR-104,Plant Protein Cocoa,Supplements,2,1699,3398,Completed,Mobile App,West
+TXN-0051,2026-10-13,CUST-042,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Website,East
+TXN-0052,2026-11-11,CUST-059,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Website,North
+TXN-0053,2026-11-05,CUST-017,PR-103,Botanical Face Oil,Skincare,2,899,1798,Completed,Mobile App,North
+TXN-0054,2026-10-19,CUST-034,PR-108,Cedarwood Diffuser Oil,Aromatherapy,1,599,599,Cancelled,Marketplace,North
+TXN-0055,2026-09-16,CUST-051,PR-107,Clay Cleanser,Skincare,2,699,1398,Refunded,Marketplace,North
+TXN-0056,2026-08-28,CUST-009,PR-104,Plant Protein Cocoa,Supplements,1,1699,1699,Completed,Website,South
+TXN-0057,2026-09-10,CUST-026,PR-104,Plant Protein Cocoa,Supplements,2,1699,3398,Completed,Marketplace,South
+TXN-0058,2026-08-14,CUST-043,PR-104,Plant Protein Cocoa,Supplements,1,1699,1699,Cancelled,Website,South
+TXN-0059,2026-08-06,CUST-001,PR-107,Clay Cleanser,Skincare,2,699,1398,Cancelled,Website,East
+TXN-0060,2026-08-18,CUST-018,PR-107,Clay Cleanser,Skincare,2,699,1398,Completed,Marketplace,North
+TXN-0061,2026-08-20,CUST-035,PR-108,Cedarwood Diffuser Oil,Aromatherapy,1,599,599,Pending,Website,South
+TXN-0062,2026-11-01,CUST-052,PR-103,Botanical Face Oil,Skincare,1,899,899,Completed,Website,South
+TXN-0063,2026-10-08,CUST-010,PR-107,Clay Cleanser,Skincare,3,699,2097,Completed,Marketplace,West
+TXN-0064,2026-10-06,CUST-027,PR-107,Clay Cleanser,Skincare,1,699,699,Completed,Marketplace,South
+TXN-0065,2026-08-11,CUST-044,PR-105,Lavender Sleep Mist,Aromatherapy,1,749,749,Pending,Mobile App,West
+TXN-0066,2026-10-25,CUST-002,PR-103,Botanical Face Oil,Skincare,1,899,899,Completed,Website,East
+TXN-0067,2026-09-15,CUST-019,PR-107,Clay Cleanser,Skincare,1,699,699,Pending,Website,North
+TXN-0068,2026-09-25,CUST-036,PR-107,Clay Cleanser,Skincare,2,699,1398,Completed,Marketplace,East
+TXN-0069,2026-09-09,CUST-053,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Mobile App,East
+TXN-0070,2026-09-23,CUST-011,PR-108,Cedarwood Diffuser Oil,Aromatherapy,2,599,1198,Completed,Mobile App,West
+TXN-0071,2026-09-06,CUST-028,PR-108,Cedarwood Diffuser Oil,Aromatherapy,1,599,599,Cancelled,Website,South
+TXN-0072,2026-09-11,CUST-045,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Marketplace,South
+TXN-0073,2026-09-14,CUST-003,PR-107,Clay Cleanser,Skincare,2,699,1398,Completed,Website,South
+TXN-0074,2026-11-06,CUST-020,PR-106,Ginger Turmeric Tea,Tea & Infusions,1,549,549,Cancelled,Marketplace,South
+TXN-0075,2026-10-01,CUST-037,PR-107,Clay Cleanser,Skincare,2,699,1398,Cancelled,Marketplace,North
+TXN-0076,2026-09-08,CUST-054,PR-105,Lavender Sleep Mist,Aromatherapy,1,749,749,Pending,Marketplace,North
+TXN-0077,2026-10-13,CUST-012,PR-106,Ginger Turmeric Tea,Tea & Infusions,2,549,1098,Completed,Marketplace,North
+TXN-0078,2026-11-08,CUST-029,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Website,East
+TXN-0079,2026-10-21,CUST-046,PR-107,Clay Cleanser,Skincare,1,699,699,Pending,Marketplace,North
+TXN-0080,2026-09-23,CUST-004,PR-108,Cedarwood Diffuser Oil,Aromatherapy,2,599,1198,Pending,Marketplace,North
+TXN-0081,2026-09-18,CUST-021,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Marketplace,West
+TXN-0082,2026-10-11,CUST-038,PR-107,Clay Cleanser,Skincare,1,699,699,Cancelled,Mobile App,North
+TXN-0083,2026-09-15,CUST-055,PR-101,Daily Greens Blend,Supplements,2,1299,2598,Refunded,Mobile App,East
+TXN-0084,2026-08-16,CUST-013,PR-104,Plant Protein Cocoa,Supplements,1,1699,1699,Completed,Mobile App,South
+TXN-0085,2026-10-22,CUST-030,PR-101,Daily Greens Blend,Supplements,3,1299,3897,Completed,Mobile App,West
+TXN-0086,2026-10-25,CUST-047,PR-104,Plant Protein Cocoa,Supplements,2,1699,3398,Refunded,Marketplace,North
+TXN-0087,2026-08-11,CUST-005,PR-108,Cedarwood Diffuser Oil,Aromatherapy,2,599,1198,Completed,Marketplace,South
+TXN-0088,2026-10-01,CUST-022,PR-104,Plant Protein Cocoa,Supplements,1,1699,1699,Pending,Marketplace,South
+TXN-0089,2026-09-13,CUST-039,PR-103,Botanical Face Oil,Skincare,1,899,899,Completed,Mobile App,East
+TXN-0090,2026-09-15,CUST-056,PR-107,Clay Cleanser,Skincare,1,699,699,Pending,Mobile App,North
+TXN-0091,2026-08-21,CUST-014,PR-102,Calm Chamomile Tea,Tea & Infusions,1,499,499,Completed,Marketplace,South
+TXN-0092,2026-10-11,CUST-031,PR-107,Clay Cleanser,Skincare,2,699,1398,Pending,Website,West
+TXN-0093,2026-11-09,CUST-048,PR-103,Botanical Face Oil,Skincare,1,899,899,Completed,Mobile App,South
+TXN-0094,2026-10-01,CUST-006,PR-105,Lavender Sleep Mist,Aromatherapy,2,749,1498,Cancelled,Marketplace,East
+TXN-0095,2026-10-22,CUST-023,PR-108,Cedarwood Diffuser Oil,Aromatherapy,1,599,599,Refunded,Marketplace,East
+TXN-0096,2026-09-26,CUST-040,PR-101,Daily Greens Blend,Supplements,3,1299,3897,Completed,Marketplace,South

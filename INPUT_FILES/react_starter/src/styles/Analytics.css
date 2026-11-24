@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Analytics (Revenue Trend & Orders By Channel) Styles
+   Strictly no inline styles.
+   ========================================================================== */
+
+.analyticsCard {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+}
+
+.analyticsCardHeader {
+  margin-bottom: var(--space-md);
+}
+
+.analyticsCardTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-forest);
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+
+.analyticsCardSubtitle {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  margin-top: 4px;
+}
+
+/* Revenue Trend SVG */
+.chartWrapper {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trendSvg {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+}
+
+.trendPoint {
+  cursor: pointer;
+  transition: r 0.15s ease;
+}
+
+/* Orders By Channel List */
+.channelList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  justify-content: center;
+  height: 100%;
+}
+
+.channelRow {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.channelMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.channelName {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.channelStats {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+/* Styled HTML5 Progress Bars */
+.channelProgress {
+  width: 100%;
+  height: 10px;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-divider-light);
+  overflow: hidden;
+}
+
+.channelProgress::-webkit-progress-bar {
+  background-color: var(--color-divider-light);
+  border-radius: var(--radius-pill);
+}
+
+.channelProgress::-webkit-progress-value {
+  border-radius: var(--radius-pill);
+  transition: width 0.3s ease;
+}
+
+.channelProgress::-moz-progress-bar {
+  border-radius: var(--radius-pill);
+  transition: width 0.3s ease;
+}
+
+/* Channel Specific Theme Colors */
+.channelProgress--website::-webkit-progress-value {
+  background-color: var(--color-forest);
+}
+.channelProgress--website::-moz-progress-bar {
+  background-color: var(--color-forest);
+}
+
+.channelProgress--mobile::-webkit-progress-value {
+  background-color: var(--color-leaf);
+}
+.channelProgress--mobile::-moz-progress-bar {
+  background-color: var(--color-leaf);
+}
+
+.channelProgress--marketplace::-webkit-progress-value {
+  background-color: var(--color-highlight);
+}
+.channelProgress--marketplace::-moz-progress-bar {
+  background-color: var(--color-highlight);
+}

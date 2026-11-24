@@ -1,0 +1,9 @@
+FINAL SUBMISSION — SINGLE GOOGLE DRIVE FOLDER (authorized reviewer: Viewer)
+[ ] COMPLETION_NOTE.txt: repository URL, live HTTPS URL, summary of work and testing actually completed
+[ ] GitHub repository: completed React source, package.json and README.md (exclude node_modules and secrets)
+[ ] Live deployment: Vercel or Netlify URL for reviewer access
+[ ] README.md: local setup, component map, data structures, environment/deployment notes, verified browsers
+[ ] Confirm dashboard works at 1440px and 768px; resize check and no horizontal overflow at 390px
+[ ] Confirm KPI formulas and Status/Channel filtering against source JSON
+[ ] Confirm clean error-free build and no inline styles
+Share ONE view-only Drive folder URL with the authorized reviewer. GitHub can be private if access is granted to the reviewer. Never claim an unperformed browser or deployment test.

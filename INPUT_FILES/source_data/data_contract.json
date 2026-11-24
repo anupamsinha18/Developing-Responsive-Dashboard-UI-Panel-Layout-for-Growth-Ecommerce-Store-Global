@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0",
+  "currency": "INR",
+  "timeZone": "Asia/Kolkata",
+  "transactionId": "Unique string",
+  "date": "ISO 8601 YYYY-MM-DD",
+  "status": [
+    "Completed",
+    "Pending",
+    "Refunded",
+    "Cancelled"
+  ],
+  "revenueRule": "Count amountINR only when status = Completed",
+  "orderCountRule": "Count completed transactions only",
+  "unitsRule": "Sum quantity for Completed transactions",
+  "filters": [
+    "Status",
+    "Channel",
+    "Date range"
+  ],
+  "pageSize": 10,
+  "sorting": "date descending"
+}

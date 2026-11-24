@@ -1,0 +1,440 @@
+/* ==========================================================================
+   TransactionTable Component Styles
+   Clean aesthetic matching organic wellness design specifications.
+   Strictly no inline styles.
+   ========================================================================== */
+
+.transactionSection {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header & Filter Controls */
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.headerLeftGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.sectionTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-forest);
+  letter-spacing: -0.015em;
+}
+
+.recordBadge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: var(--radius-pill);
+  background-color: var(--color-sage-tint);
+  color: var(--color-leaf);
+}
+
+/* Filter Controls */
+.filterControlsBar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.searchBox {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 10px;
+  color: var(--color-text-muted);
+  pointer-events: none;
+}
+
+.searchInput {
+  padding: 7px 28px 7px 32px;
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 0.875rem;
+  color: var(--color-text-primary);
+  background-color: var(--color-canvas);
+  min-width: 190px;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: var(--color-leaf);
+  background-color: var(--color-white);
+}
+
+.clearSearchBtn {
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 1.125rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.selectWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.filterSelect {
+  padding: 7px 28px 7px 12px;
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+  background-color: var(--color-canvas);
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2210%22%20height%3D%226%22%20viewBox%3D%220%200%2010%206%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M1%201L5%205L9%201%22%20stroke%3D%22%235C7065%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+.filterSelect:focus {
+  outline: none;
+  border-color: var(--color-leaf);
+  background-color: var(--color-white);
+}
+
+.resetFilterBtn {
+  padding: 7px 12px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-divider);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.resetFilterBtn:hover {
+  background-color: var(--color-sage-tint);
+  color: var(--color-forest);
+}
+
+/* Scroll Container for Accessibility and Responsiveness */
+.tableScrollContainer {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Core Table */
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+.transactionTable thead {
+  background-color: var(--color-canvas);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.transactionTable th {
+  padding: 12px 18px;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+}
+
+.sortBtn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0;
+}
+
+.sortBtn:hover {
+  color: var(--color-forest);
+}
+
+.sortIndicator {
+  font-size: 0.75rem;
+  color: var(--color-leaf);
+}
+
+.transactionTable td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--color-divider-light);
+  color: var(--color-text-primary);
+  vertical-align: middle;
+}
+
+.tableRow:hover {
+  background-color: rgba(244, 247, 242, 0.45);
+}
+
+/* Table Column Widths & Alignments */
+.colTransaction {
+  min-width: 120px;
+}
+
+.colDate {
+  min-width: 110px;
+}
+
+.colProduct {
+  min-width: 200px;
+}
+
+.colAmount {
+  min-width: 100px;
+}
+
+.colChannel {
+  min-width: 110px;
+}
+
+.colStatus {
+  min-width: 110px;
+}
+
+.transactionIdText {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-forest);
+}
+
+.dateText {
+  color: var(--color-text-secondary);
+  font-size: 0.8125rem;
+}
+
+.productCell {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.productNameText {
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.productQtyBadge {
+  font-size: 0.6875rem;
+  padding: 1px 6px;
+  border-radius: var(--radius-xs);
+  background-color: var(--color-divider-light);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.amountText {
+  font-weight: 600;
+  color: var(--color-forest);
+}
+
+.channelBadge {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+}
+
+/* Status Pill Badges */
+.statusPill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  border: 1px solid transparent;
+}
+
+.statusPill--completed {
+  color: var(--status-completed-text);
+  background-color: var(--status-completed-bg);
+  border-color: var(--status-completed-border);
+}
+
+.statusPill--pending {
+  color: var(--status-pending-text);
+  background-color: var(--status-pending-bg);
+  border-color: var(--status-pending-border);
+}
+
+.statusPill--refunded {
+  color: var(--status-refunded-text);
+  background-color: var(--status-refunded-bg);
+  border-color: var(--status-refunded-border);
+}
+
+.statusPill--cancelled {
+  color: var(--status-cancelled-text);
+  background-color: var(--status-cancelled-bg);
+  border-color: var(--status-cancelled-border);
+}
+
+/* Empty State */
+.emptyStateCell {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.emptyStateContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.emptyMessage {
+  color: var(--color-text-secondary);
+  font-size: 0.9375rem;
+}
+
+.resetEmptyBtn {
+  padding: 6px 14px;
+  background-color: var(--color-forest);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Pagination Footer */
+.tablePaginationFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-md);
+  padding: var(--space-md) var(--space-lg);
+  border-top: 1px solid var(--color-divider);
+  background-color: var(--color-white);
+}
+
+.paginationInfo {
+  font-size: 0.8125rem;
+  color: var(--color-text-secondary);
+}
+
+.paginationHighlight {
+  font-weight: 600;
+  color: var(--color-forest);
+}
+
+.paginationControls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.pageBtn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-divider);
+  background-color: var(--color-white);
+  color: var(--color-text-primary);
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s ease;
+}
+
+.pageBtn:hover:not(:disabled) {
+  border-color: var(--color-leaf);
+  color: var(--color-leaf);
+  background-color: var(--color-canvas);
+}
+
+.pageBtnActive {
+  background-color: var(--color-forest);
+  border-color: var(--color-forest);
+  color: var(--color-white);
+  font-weight: 600;
+}
+
+.pageBtnActive:hover {
+  background-color: var(--color-forest-hover);
+  border-color: var(--color-forest-hover);
+  color: var(--color-white);
+}
+
+.pageBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  border-color: var(--color-divider);
+}
+
+/* Tablet & Mobile Table Controls */
+@media (max-width: 768px) {
+  .sectionHeader {
+    flex-direction: column;
+    align-items: stretch;
+    padding: var(--space-md);
+  }
+
+  .filterControlsBar {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .searchInput {
+    width: 100%;
+  }
+
+  .filterSelect {
+    width: 100%;
+  }
+
+  .tablePaginationFooter {
+    flex-direction: column;
+    align-items: center;
+    padding: var(--space-md);
+  }
+}

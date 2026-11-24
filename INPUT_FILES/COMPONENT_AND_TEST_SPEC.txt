@@ -1,0 +1,18 @@
+COMPONENTS
+App: composes shell and holds any relevant filter state.
+Sidebar: accessible navigation for Overview, Transactions, Customers, Products, Settings (only Overview and Transactions must be active in this one-page scope).
+Header: dashboard title and date-range caption.
+StatCard: reusable label / formatted value / optional indicator.
+TransactionTable: receives transaction array via props, with Status and Channel controls managed by React useState, no hardcoded transaction rows.
+Data contract: source_data/data_contract.json. Import data from src/data/transactions.json.
+REQUIRED CHECKS
+1. npm install; npm run dev; npm run build.
+2. On desktop 1440px, sidebar, four KPI cards and transaction table are visible and aligned.
+3. On tablet 768px and 1024px, cards reflow and table remains accessible.
+4. At 390px and 320px, no body horizontal scrolling; table can scroll in its own region.
+5. Filter Completed, Pending, Refunded, Cancelled, and All; counts should match the source data. Channel filter may combine with status.
+6. KPI values are computed from data; amounts are formatted in INR.
+7. Check Chrome and Firefox; check Safari where available. Record what was actually tested.
+8. Verify semantic landmarks, heading order, keyboard filter operation and basic contrast.
+9. Verify no console errors, unhandled exceptions or missing assets.
+10. GitHub repo should include README.md with setup, components, data structure and testing notes. Deploy to a publicly accessible Vercel/Netlify HTTPS URL only when authorized. Do not publish customer personal data; supplied IDs are synthetic.
