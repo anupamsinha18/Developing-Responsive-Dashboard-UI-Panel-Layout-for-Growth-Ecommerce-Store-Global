@@ -132,7 +132,7 @@ export default function TransactionTable({ rows = [] }) {
   };
 
   return (
-    <section className="transactionSection" aria-label="Recent transactions table">
+    <section id="recent-transactions" className="transactionSection" aria-label="Recent transactions table">
       <div className="sectionHeader">
         <div className="headerLeftGroup">
           <h2 className="sectionTitle">Recent transactions</h2>

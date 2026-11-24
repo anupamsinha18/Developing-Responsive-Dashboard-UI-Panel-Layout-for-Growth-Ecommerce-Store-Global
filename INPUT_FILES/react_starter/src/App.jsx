@@ -19,6 +19,22 @@ export default function App() {
   const [activeNav, setActiveNav] = useState('Overview');
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
+  // Smooth scroll handler for active navigation items (Overview & Transactions)
+  const handleNavSelect = (navId) => {
+    setActiveNav(navId);
+    if (navId === 'Transactions') {
+      const tableEl = document.getElementById('recent-transactions');
+      if (tableEl) {
+        tableEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else if (navId === 'Overview') {
+      const topEl = document.getElementById('main-content');
+      if (topEl) {
+        topEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  };
+
   // Derive KPI calculations according to data contract:
   // - Revenue: sum amountINR for Completed transactions only
   // - Completed orders: count Completed transactions only
@@ -46,7 +62,7 @@ export default function App() {
       {/* Primary Sidebar Navigation */}
       <Sidebar
         activeNav={activeNav}
-        onSelectNav={setActiveNav}
+        onSelectNav={handleNavSelect}
         isOpen={isSidebarOpen}
         onClose={() => setIsSidebarOpen(false)}
       />

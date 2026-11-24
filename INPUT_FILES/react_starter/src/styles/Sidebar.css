@@ -3,14 +3,12 @@
    ========================================================================== */
 
 .sidebar {
-  position: sticky;
-  top: 0;
-  align-self: flex-start;
-  height: 100vh;
-  height: 100dvh;
-  overflow: hidden;
   width: var(--sidebar-width);
   min-width: var(--sidebar-width);
+  height: 100vh;
+  height: 100dvh;
+  flex-shrink: 0;
+  overflow: hidden;
   background-color: var(--color-forest);
   color: var(--color-white);
   display: flex;
